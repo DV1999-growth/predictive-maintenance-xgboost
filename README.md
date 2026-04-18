@@ -123,37 +123,24 @@ These features significantly influence machine failure predictions.
 
 ## 🚀 How to Run
 
-1. Clone the repository:
+## How to Run
 
-```
-git clone https://github.com/DV1999-growth/predictive-maintenance-xgboost.git
-```
+1. Clone the repository:
+   git clone https://github.com/DV1999-growth/predictive-maintenance-xgboost.git
 
 2. Navigate to the project:
+   cd predictive-maintenance-xgboost
 
-```
-cd predictive-maintenance-xgboost
-```
+3. Create a folder named `data/` in the project root.
 
-3. Install dependencies:
+4. Download the dataset from Kaggle and place:
+   data/ai4i2020.csv
 
-```
-pip install -r requirements.txt
-```
+5. Install dependencies:
+   pip install -r requirements.txt
 
-4. Download dataset from Kaggle and place in:
-
-```
-data/ai4i2020.csv
-```
-
-5. Open and run the notebook:
-
-```
-jupyter notebook
-```
-
----
+6. Open and run the notebook:
+   jupyter notebook
 
 ## 📁 Project Structure
 
@@ -182,6 +169,6 @@ predictive-maintenance-xgboost/
 
 ## 🔗 Author
 
-**Your Name**
-
+## Author
+DV1999-growth  
 GitHub: https://github.com/DV1999-growth
