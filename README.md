@@ -147,10 +147,7 @@ These features significantly influence machine failure predictions.
 ```
 predictive-maintenance-xgboost/
 │
-├── notebooks/
-│   └── Predictive_Maintenance_xgboost.ipynb
-├── data/                # (not included)
-├── src/                 # optional future code
+├── Predictive_Maintenance_xgboost.ipynb
 ├── README.md
 ├── requirements.txt
 └── .gitignore
