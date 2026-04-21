@@ -123,8 +123,6 @@ These features significantly influence machine failure predictions.
 
 ## How to Run
 
-## How to Run
-
 1. Clone the repository:
    git clone https://github.com/DV1999-growth/predictive-maintenance-xgboost.git
 
@@ -163,8 +161,6 @@ predictive-maintenance-xgboost/
 * Using XGBoost for high-performance tabular modeling
 
 ---
-
-## 🔗 Author
 
 ## Author
 DV1999-growth  
