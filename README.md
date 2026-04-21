@@ -1,6 +1,6 @@
 # Predictive Maintenance using XGBoost
 
-## 📌 Project Overview
+## Project Overview
 
 This project builds a machine learning model to predict machine failures using industrial sensor data.
 The goal is to identify potential failures early and reduce downtime in manufacturing systems.
@@ -9,7 +9,7 @@ The model is trained on the **AI4I 2020 Predictive Maintenance Dataset** and use
 
 ---
 
-## ⚙️ Problem Statement
+## Problem Statement
 
 Predict whether a machine will fail based on features such as:
 
@@ -24,12 +24,12 @@ This is a **binary classification problem** with **class imbalance**, where fail
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 * Source: Kaggle – AI4I 2020 Predictive Maintenance Dataset
 * Note: Dataset is **not included** in this repository due to licensing restrictions
 
-### 👉 To use the dataset:
+### To use the dataset:
 
 1. Download from Kaggle
 2. Create a folder named `data/` in the project directory
@@ -41,7 +41,7 @@ data/ai4i2020.csv
 
 ---
 
-## 🛠️ Data Preprocessing
+## Data Preprocessing
 
 * Removed leakage-related columns: `UDI`, `Product ID`
 * Dropped failure subtype columns: `TWF`, `HDF`, `PWF`, `OSF`, `RNF`
@@ -51,7 +51,7 @@ data/ai4i2020.csv
 
 ---
 
-## 🤖 Model
+## Model
 
 * Algorithm: **XGBoost Classifier**
 * Key configurations:
@@ -63,7 +63,7 @@ data/ai4i2020.csv
 
 ---
 
-## ⚖️ Handling Class Imbalance
+## Handling Class Imbalance
 
 Failure cases are rare, so:
 
@@ -72,7 +72,7 @@ Failure cases are rare, so:
 
 ---
 
-## 🎯 Threshold Tuning
+## Threshold Tuning
 
 Instead of using the default probability threshold (0.5), the model uses:
 
@@ -84,7 +84,7 @@ This improves recall for failure detection while maintaining reasonable precisio
 
 ---
 
-## 📈 Model Performance
+## Model Performance
 
 ### Confusion Matrix
 
@@ -109,7 +109,7 @@ This improves recall for failure detection while maintaining reasonable precisio
 
 ---
 
-## 📊 Feature Importance
+## Feature Importance
 
 The model identifies key predictors such as:
 
@@ -121,7 +121,7 @@ These features significantly influence machine failure predictions.
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ## How to Run
 
@@ -142,7 +142,7 @@ These features significantly influence machine failure predictions.
 6. Open and run the notebook:
    jupyter notebook
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 predictive-maintenance-xgboost/
@@ -155,7 +155,7 @@ predictive-maintenance-xgboost/
 
 ---
 
-## 📌 Key Learnings
+## Key Learnings
 
 * Handling class imbalance in real-world datasets
 * Importance of removing data leakage
